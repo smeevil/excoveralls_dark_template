@@ -295,6 +295,10 @@
         background: #374351;
     }
 
+    tr.miss td.hits{
+        color: transparent;
+    }
+
     tr.miss td.line,
     tr.miss td.hits {
         background: rgba(185, 73, 71, 0.3);
