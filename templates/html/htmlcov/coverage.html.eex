@@ -16,7 +16,7 @@
             $('td.source').each(function (i, block) {
                 hljs.highlightBlock(block);
             });
-            $('[data-coverage="100"]').hide();
+            $('[data-coverage="100"] > table').hide();
         });
 
 
