@@ -17,6 +17,10 @@
                 hljs.highlightBlock(block);
             });
             $('[data-coverage="100"] > table').hide();
+
+            $('[data-coverage="100"] h2, [data-coverage="100"] #stats').on('click', function(e){
+                $(e.currentTarget).parent().find('table').toggle();
+            })
         });
 
 
