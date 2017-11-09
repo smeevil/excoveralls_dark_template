@@ -81,7 +81,7 @@
                       <tr class='miss'>
                         <td class='line'><%= number %></td>
                         <td class='hits'>0</td>
-                        <td class='source'><%= inspect(ExCoveralls.Html.View.safe line.source || ' ')%></td>
+                        <td class='source'><%= ExCoveralls.Html.View.safe line.source || ' '%></td>
                       </tr>
                     <% true -> %>
                       <tr>
